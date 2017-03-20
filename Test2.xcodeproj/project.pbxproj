@@ -14,6 +14,7 @@
 		E857211F1E7FAE9300D80C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E857211D1E7FAE9300D80C89 /* LaunchScreen.storyboard */; };
 		E857212A1E7FAE9400D80C89 /* Test2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85721291E7FAE9400D80C89 /* Test2Tests.swift */; };
 		E85721351E7FAE9400D80C89 /* Test2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85721341E7FAE9400D80C89 /* Test2UITests.swift */; };
+		E8B9B2561E7FBD0A007C6CAA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B9B2551E7FBD0A007C6CAA /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E85721301E7FAE9400D80C89 /* Test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85721341E7FAE9400D80C89 /* Test2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2UITests.swift; sourceTree = "<group>"; };
 		E85721361E7FAE9400D80C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B9B2551E7FBD0A007C6CAA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E85721131E7FAE9300D80C89 /* Test2 */ = {
 			isa = PBXGroup;
 			children = (
+				E8B9B2551E7FBD0A007C6CAA /* SettingsViewController.swift */,
 				E85721141E7FAE9300D80C89 /* AppDelegate.swift */,
 				E85721161E7FAE9300D80C89 /* ViewController.swift */,
 				E85721181E7FAE9300D80C89 /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				E85721171E7FAE9300D80C89 /* ViewController.swift in Sources */,
 				E85721151E7FAE9300D80C89 /* AppDelegate.swift in Sources */,
+				E8B9B2561E7FBD0A007C6CAA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +420,7 @@
 				DEVELOPMENT_TEAM = KUB9JYZ6Y4;
 				INFOPLIST_FILE = Test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codepath.Test2;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.Tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -429,7 +433,7 @@
 				DEVELOPMENT_TEAM = KUB9JYZ6Y4;
 				INFOPLIST_FILE = Test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codepath.Test2;
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.Tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -512,6 +516,7 @@
 				E857213B1E7FAE9400D80C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E857213C1E7FAE9400D80C89 /* Build configuration list for PBXNativeTarget "Test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				E857213E1E7FAE9400D80C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E857213F1E7FAE9400D80C89 /* Build configuration list for PBXNativeTarget "Test2UITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				E85721411E7FAE9400D80C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
